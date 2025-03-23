@@ -89,7 +89,7 @@ flutter run
 
 ## 👨‍💻 開發者
 
-- [您的名字](https://github.com/yourusername)
+- [mentaikisgood](https://github.com/mentaikoisgood)
 
 ## 📄 許可證
 
