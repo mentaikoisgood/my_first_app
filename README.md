@@ -1,16 +1,96 @@
-# my_first_app
+# 📝 待辦事項應用 (Todo List App)
 
-A new Flutter project.
+這是一個使用 Flutter 開發的待辦事項管理應用，具有現代化 UI 設計和豐富的功能。該應用允許用戶創建、編輯、刪除和組織待辦事項，支持深色和淺色模式，所有數據都將被本地保存。
 
-## Getting Started
+## ✨ 功能特點
 
-This project is a starting point for a Flutter application.
+### 基本功能
+- ✅ **新增待辦事項**：用戶可以輸入標題並添加新的待辦事項
+- ✏️ **編輯待辦事項**：點擊編輯按鈕修改現有待辦事項
+- 🗑️ **刪除待辦事項**：點擊刪除按鈕移除不需要的待辦事項
+- ✓ **完成標記**：使用複選框將任務標記為已完成或未完成
+- 📊 **分類顯示**：已完成和未完成的待辦事項分開顯示
 
-A few resources to get you started if this is your first Flutter project:
+### 進階功能
+- 🔍 **搜索功能**：通過關鍵字搜索特定待辦事項
+- 🌓 **深色/淺色模式切換**：根據使用者偏好或環境條件選擇合適的外觀
+- ⭐ **重要標記**：將重要的待辦事項標記為重要（星號圖標）
+- 📅 **截止日期設置**：為待辦事項添加截止日期
+- 🔴 **過期提醒**：截止日期已過的待辦事項會以紅色顯示
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 技術特點
+- 💾 **數據持久化**：使用 SharedPreferences 存儲待辦事項和用戶偏好設置
+- 🔄 **狀態管理**：使用 Flutter 的 StatefulWidget 進行狀態管理
+- 📱 **響應式設計**：適配各種屏幕尺寸和方向
+- 🌐 **國際化支持**：支持日期格式的多樣化顯示
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 開始使用
+
+### 安裝步驟
+
+1. 確保您的開發環境已設置好 Flutter：
+```bash
+flutter doctor
+```
+
+2. 克隆項目到本地：
+```bash
+git clone https://github.com/yourusername/todo-list-app.git
+cd todo-list-app
+```
+
+3. 安裝依賴：
+```bash
+flutter pub get
+```
+
+4. 運行應用：
+```bash
+flutter run
+```
+
+### 系統需求
+- Flutter 3.6.0 或更高版本
+- Dart 3.6.0 或更高版本
+- iOS 12.0+ / Android 5.0+
+
+## 📱 應用界面
+
+待辦事項應用具有簡潔直觀的用戶界面：
+
+- **主屏幕**：顯示所有待辦事項的列表
+- **搜索欄**：位於頂部，用於搜索待辦事項
+- **新增待辦事項**：在底部有輸入框和添加按鈕
+- **待辦事項卡片**：包含標題、完成狀態、截止日期和操作按鈕
+- **設置選項**：可切換主題和顯示/隱藏已完成事項
+
+## 🔧 使用說明
+
+### 基本操作
+1. **添加待辦事項**：在輸入框中輸入文字，點擊「添加」按鈕
+2. **完成待辦事項**：點擊待辦事項前的複選框
+3. **編輯待辦事項**：點擊待辦事項右側的編輯圖標
+4. **刪除待辦事項**：點擊待辦事項右側的刪除圖標
+
+### 高級操作
+1. **搜索**：在頂部搜索欄中輸入關鍵字
+2. **切換主題**：點擊右上角的日/月圖標
+3. **重要標記**：點擊星形圖標將待辦事項標記為重要
+4. **設置截止日期**：點擊日曆圖標為待辦事項添加截止日期
+5. **顯示/隱藏已完成**：點擊右上角的複選框圖標
+
+## 🧪 技術細節
+
+本應用使用了以下 Flutter 包和技術：
+
+- **shared_preferences**: 用於本地數據持久化
+- **intl**: 用於日期格式化
+- **Material Design 3**: 提供現代化的 UI 元素和主題
+
+## 👨‍💻 開發者
+
+- [您的名字](https://github.com/yourusername)
+
+## 📄 許可證
+
+該項目使用 MIT 許可證 - 詳見 [LICENSE](LICENSE) 文件
